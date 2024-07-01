@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom"
 import Header from "../components/header/Header"
 import Sidebar from "../components/sidebar/Sidebar"
 
@@ -8,8 +9,8 @@ const Layout: React.FC = () => {
 
       <main className="w-full md:h-screen overflow-scroll md:flex">
         <Sidebar/>
-        <div className="w-full">
-
+        <div className="w-full p-5">
+          <Outlet/>
         </div>
       </main>
     </div>
