@@ -1,4 +1,4 @@
-import { BuildingStorefrontIcon, UserCircleIcon } from "@heroicons/react/24/outline"
+import { BuildingStorefrontIcon, UserCircleIcon } from '@heroicons/react/24/outline'
 
 const Header = () => {
   return (

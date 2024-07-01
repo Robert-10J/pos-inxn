@@ -1,5 +1,5 @@
-import { OPTIONS_SIDEBAR } from "../../constants"
-import LinkItem from "./LinkItem"
+import { OPTIONS_SIDEBAR } from '../../constants'
+import LinkItem from'./LinkItem'
 
 const Sidebar = () => {
   return (
