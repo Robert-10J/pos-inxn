@@ -3,7 +3,7 @@ import LinkItem from "./LinkItem"
 
 const Sidebar = () => {
   return (
-    <aside className="shadow-lg md:h-screen w-1/6">
+    <aside className="shadow-lg w-1/6">
       <nav>
         <ul>
           {OPTIONS_SIDEBAR.map(option => (
