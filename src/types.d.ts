@@ -7,7 +7,7 @@ export interface OptionsMenus {
   id: number
   option: string
   link?: string
-  icon?: string
+  icon?: React.ReactHTMLElement
 }
 
 export interface HeadTables {
