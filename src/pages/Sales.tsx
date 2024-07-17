@@ -1,6 +1,12 @@
+import { Button } from '@material-tailwind/react'
+
 const Sales = () => {
   return (
-    <div>Sales</div>
+    <div>
+      <Button>
+        Button
+      </Button>
+    </div>
   )
 }
 

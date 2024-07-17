@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-import { OptionsMenus } from "../../types"
+import { Link } from 'react-router-dom'
+import { OptionsMenus } from '../../types'
 
 const LinkItem = ({ id, option, link, icon: Icon }: OptionsMenus) => {
   return (
