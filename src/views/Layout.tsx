@@ -10,7 +10,7 @@ const Layout: React.FC = () => {
       </header>
 
       <div className='h-full flex'>
-        <aside className='shadow-lg h-full w-1/6'>
+        <aside className='shadow-lg max-h-full w-1/6'>
           <Sidebar/>
         </aside>
         

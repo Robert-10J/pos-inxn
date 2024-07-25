@@ -1,5 +1,7 @@
-import { CubeIcon, PresentationChartBarIcon, Square3Stack3DIcon } from "@heroicons/react/24/outline";
-import { OptionsMenus } from "./types";
+import { CubeIcon, PresentationChartBarIcon, Square3Stack3DIcon } from '@heroicons/react/24/outline'
+import type { OptionsMenus } from './types'
+
+export const BG_COLOR = 'bg-gradient-to-r from-purple-800 to-blue-800'
 
 // Options user menu
 export const OPTIONS_USER: OptionsMenus[] = [

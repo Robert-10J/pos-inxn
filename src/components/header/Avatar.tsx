@@ -10,9 +10,7 @@ import {
 } from '@material-tailwind/react';
 import {
   Cog6ToothIcon,
-  LifebuoyIcon,
   PowerIcon,
-  UserCircleIcon,
 } from '@heroicons/react/24/solid';
  
 // profile menu component
