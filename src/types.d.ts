@@ -14,3 +14,8 @@ export interface HeadTables {
   id: number
   headTitle: string
 }
+
+interface Filters {
+  id: number
+  option: string
+}
