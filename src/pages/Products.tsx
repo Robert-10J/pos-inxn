@@ -12,7 +12,7 @@ const Products = () => {
       <div className='sticky top-0 z-50 w-full bg-gray-100 my-4'>
         <div className='flex justify-start items-center gap-x-[31rem] py-3 h-12'>
           <BackButton />
-          <h2 className='font-bold text-4xl text-center'>Productos</h2>
+          <h2 className='font-bold text-3xl text-center uppercase'>Productos</h2>
         </div>
 
         <div className='flex justify-between items-center h-20 mt-5 px-10'>
@@ -20,22 +20,21 @@ const Products = () => {
             <AddButton label={'Agregar Producto'} />
           </div>
           <div className="w-1/2">
-            <SearchInput/>
+            <SearchInput />
           </div>
         </div>
 
         <div className='flex items-center justify-between my-5 gap-x-5'>
           <p className='px-12 text-lg'>Filtros:</p>
-          <div>
-            <FilterInput label={'Categoría'} options={FILTERS} />
-          </div>
-          
-          <div>
-            <FilterInput label={'Sucursales'} options={FILTERS} />
-          </div>
 
-          <div className='mr-4'>
-            <ListShop/>
+          <div className='flex justify-start items-center gap-x-5 w-full'>
+            <div>
+              <FilterInput label={'Productos'} options={FILTERS} />
+            </div>
+
+            <div className='mr-4'>
+              <FilterInput label={'Categoría'} options={FILTERS} />
+            </div>
           </div>
         </div>
       </div>
