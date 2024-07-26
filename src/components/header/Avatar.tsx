@@ -8,26 +8,11 @@ import {
   MenuList,
   Typography,
 } from '@material-tailwind/react';
-import {
-  Cog6ToothIcon,
-  PowerIcon,
-} from '@heroicons/react/24/solid';
- 
-// profile menu component
-const profileMenuItems = [
-  {
-    label: 'Configuración',
-    icon: Cog6ToothIcon,
-  },
-  {
-    label: 'Cerrar Sesión',
-    icon: PowerIcon,
-  },
-];
+import { PROFILE_MENU_ITEMS } from '../../constants';
+
  
 export default function UserAvatar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
- 
   const closeMenu = () => setIsMenuOpen(false);
  
   return (
@@ -50,8 +35,8 @@ export default function UserAvatar() {
         </Button>
       </MenuHandler>
       <MenuList className='p-1'>
-        {profileMenuItems.map(({ label, icon }, key) => {
-          const isLastItem = key === profileMenuItems.length - 1;
+        {PROFILE_MENU_ITEMS.map(({ label, icon }, key) => {
+          const isLastItem = key === PROFILE_MENU_ITEMS.length - 1;
           return (
             <MenuItem
               key={label}
@@ -75,9 +60,9 @@ export default function UserAvatar() {
                 {label}
               </Typography>
             </MenuItem>
-          );
+          )
         })}
       </MenuList>
     </Menu>
-  );
+  )
 }

@@ -5,7 +5,7 @@ import Sidebar from '../components/sidebar/Sidebar'
 const Layout: React.FC = () => {
   return (
     <div className='flex md:flex-col h-screen'>
-      <header className="h-28 flex items-center px-1 font-bold text-4xl text-white">
+      <header className="h-24 flex items-center px-1 font-bold text-4xl text-white">
        <Header/>
       </header>
 

@@ -1,7 +1,11 @@
-import { CubeIcon, PresentationChartBarIcon, Square3Stack3DIcon } from '@heroicons/react/24/outline'
+import {
+  Cog6ToothIcon,  PowerIcon, UserGroupIcon,
+  CubeIcon, PresentationChartBarIcon, Square3Stack3DIcon
+} from '@heroicons/react/24/solid'
 import type { OptionsMenus } from './types'
 
-export const BG_COLOR = 'bg-gradient-to-r from-purple-800 to-blue-800'
+export const BG_COLOR = 'bg-gradient-to-r from-purple-800 to-blue-800 text-white font-semibold'
+export const TEXT_COLOR = 'bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 text-transparent bg-clip-text'
 
 // Options user menu
 export const OPTIONS_USER: OptionsMenus[] = [
@@ -160,3 +164,18 @@ export const HEAD_TABLE_CATEGORIES: OptionsMenus[] = [
   },
 ]
 
+// profile menu component
+export const PROFILE_MENU_ITEMS = [
+  {
+    label: 'Usuarios',
+    icon: UserGroupIcon,
+  },
+  {
+    label: 'Configuración',
+    icon: Cog6ToothIcon,
+  },
+  {
+    label: 'Cerrar Sesión',
+    icon: PowerIcon,
+  },
+]
