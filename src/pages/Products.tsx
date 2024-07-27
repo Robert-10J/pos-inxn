@@ -1,18 +1,16 @@
-import ListShop from '../components/buttons/ListShop'
 import AddButton from '../components/buttons/AddButton'
-import BackButton from '../components/buttons/BackButton'
 import SearchInput from '../components/inputs/SearchInput'
 import FilterInput from '../components/inputs/FilterInput'
 import { TableBody } from '../components/tables/TableBody'
 import { FILTERS, HEAD_TABLE_PRODUCTS, TABLE_ROWS } from '../constants'
+import HeaderPage from '../components/header/HeaderPage'
 
 const Products = () => {
   return (
     <div className='w-full h-full flex flex-col '>
       <div className='sticky top-0 z-50 w-full bg-gray-100 my-4'>
         <div className='flex justify-start items-center gap-x-[31rem] py-3 h-12'>
-          <BackButton />
-          <h2 className='font-bold text-3xl text-center uppercase'>Productos</h2>
+          <HeaderPage label={'Productos'}/>
         </div>
 
         <div className='flex justify-between items-center h-20 mt-5 px-10'>
