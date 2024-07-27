@@ -1,6 +1,5 @@
-import { createElement } from 'react'
-import { ArrowLeftIcon } from '@heroicons/react/24/solid'
 import { Link, useNavigate } from 'react-router-dom'
+import { ArrowLeftIcon } from '@heroicons/react/24/solid'
 
 const BackButton = () => {
   const navigate = useNavigate()
@@ -12,7 +11,7 @@ const BackButton = () => {
         navigate(-1)
       }}
     >
-      {createElement(ArrowLeftIcon, { className: 'w-12 text-purple-700', strokeWidth: 5 })}
+      <ArrowLeftIcon className='w-12 text-purple-700'/>
     </Link>
   )
 }

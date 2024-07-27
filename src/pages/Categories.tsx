@@ -14,7 +14,10 @@ const Categories = () => {
 
         <div className='flex justify-end items-center h-20 mt-5 px-10'>
           <div className="w-1/2">
-            <AddButton label={'Agregar Categoría'} />
+            <AddButton
+              url={'/categorias/registrarCategoria'}
+              label={'Agregar Categoría'} 
+            />
           </div>
           <div className="w-1/2">
             <SearchInput />

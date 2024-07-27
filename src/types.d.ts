@@ -19,3 +19,5 @@ interface Filters {
   id: number
   option: string
 }
+
+export type RegisterUrl = '/productos/registrarProducto' | '/categorias/registrarCategoria'
